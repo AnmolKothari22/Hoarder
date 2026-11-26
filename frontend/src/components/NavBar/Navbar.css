@@ -1,0 +1,19 @@
+.nav{
+
+    color: black;
+    background-color: rgb(187, 129, 82);
+    width: auto;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-items:flex-start;
+}
+
+.navbar-item{
+    margin-left: 2rem;
+}
