@@ -18,19 +18,17 @@ function NavBar({ title, menuItems }: NavBarProps) {
   return (
     <nav className="nav">
 
-      <div className="NavBar-logo">
-        {title}
-      </div>
+     
 
-      <ul className="navbar-menu">
+      <div className="navbar-menu">
         {menuItems.map((item, index) => (
-          <li key={item.path } className="navbar-item">
+          <div key={item.path } className="navbar-item">
             <Link to={item.path}>
-              {item.label}
+              {item.label} 
             </Link>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
 
     </nav>
   );

@@ -1,0 +1,34 @@
+#box{
+    width: 450px;
+    height: 400px;
+    margin: 2rem;
+    background-color: rgb(187, 149, 118);
+    border-radius: 40px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-box{
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+}
+
+input{
+    border-radius: 20px;
+    width: 50%;
+    height: 0.5rem;
+    padding: 1rem;
+}
+
+/*
+ background-color: rgb(240, 223, 188);
+
+*/

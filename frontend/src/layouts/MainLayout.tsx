@@ -24,7 +24,7 @@ function MainLayout() {
         <Outlet />
 
       <footer >
-       Copyright 2026 My Website
+       Copyright @ 2026 My Website
       </footer>
 
     </>
